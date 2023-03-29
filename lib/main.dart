@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:primera_app/counter_widget.dart';
 
 import 'basic_widgets.dart';
 
@@ -17,7 +18,7 @@ void main() {
         primarySwatch: Colors.lightBlue
       ),
       // Scaffold es un Widget con la configuración básica de una ventana.
-      home: BasicWidgets()
+      home: CounterWidget()
     )
   );
 }
